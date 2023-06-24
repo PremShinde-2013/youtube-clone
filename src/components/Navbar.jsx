@@ -4,7 +4,9 @@ import React from 'react';
 import { Stack } from '@mui/material';
 import { Link } from '@mui/material';
 
-import { logo } from '../utils/constants';
+// import { logo } from '../utils/constants';
+import logo from '../images/logo.png';
+
 import SearchBar from './SearchBar';
 
 const Navbar = () => (
@@ -20,7 +22,7 @@ const Navbar = () => (
     }}
   >
     <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={logo} alt="logo" height={45} />
+      <img src={logo} alt="logo" height={75} />
     </Link>
     <SearchBar />
   </Stack>
